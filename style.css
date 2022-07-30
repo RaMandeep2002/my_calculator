@@ -35,10 +35,9 @@ body {
     box-shadow: 0 0 30px #000;
 }
 
-
-/* .display-screen {
+.display-screen {
     margin-top: 15px;
-} */
+}
 
 #display {
     margin: 10px;
@@ -67,7 +66,7 @@ button {
     font-size: 30px;
     cursor: pointer;
     transition: all 200ms ease;
-    box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #b4c1d5;
+    box-shadow: -12px -12px 24px #ffffff, 12px 12px 24px #787d84;
 }
 
 button:hover {
@@ -76,7 +75,7 @@ button:hover {
 
 button#equal {
     background-color: #70D48C;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
@@ -91,18 +90,20 @@ button#equal {
 }
 
 .calculator button#clear {
-    background-color: #ffd5d8;
-    color: #fc4552;
+    background-color: #EBF3FF;
+    color: #CCA950;
 }
 
 .calculator button.btn-number {
     background-color: #c3eaff;
     color: #000000;
+    font-size: 35px;
 }
 
 .calculator button.btn-operator {
-    background-color: #ffd0fb;
-    color: #f967f3;
+    background-color: #ebf3ff;
+    color: #4F4F4F;
+    font-size: 35px;
 }
 
 .calculator button.btn-equal {
