@@ -78,6 +78,13 @@ button#equal {
     font-size: 40px;
 }
 
+button img {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
 
 /* light theme */
 
@@ -109,6 +116,16 @@ button#equal {
 .calculator button.btn-equal {
     background-color: #adf9e7;
     color: #000;
+}
+
+.calculator button.btn-equal:hover {
+    background-color: #70D48C;
+    color: #fff;
+}
+
+.calculator button#backspace {
+    background-color: #EBF3FF;
+    float: right;
 }
 
 
